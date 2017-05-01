@@ -1,6 +1,14 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-
-class Shorten extends CI_Controller { 
+/*
+this code do the loads the main view and handles requests for long URLs 
+to be turned into short URLS by index method
+and also load the model for dealing 
+with short URLs and get the segment the user requested 
+and direct the user to the long URL the short URL this by get shorty function
+also the a little error for when users enter an invalid short URL done by error fun.(If the short URL can not be found the user is redirected to 
+404_error which the routes file routes to this method).
+*/
+class control-shorten extends CI_Controller { 
     public function index() 
     {
         $data=array(); 

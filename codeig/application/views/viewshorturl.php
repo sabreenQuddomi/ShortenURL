@@ -2,7 +2,9 @@
  <html lang="en" class="no-js"> 
 <head>
 	<meta charset="utf-8">
-	
+	<?php  /*   this is the view that show the the fieldtext to enter in it the long  URL
+   valid then send it by button then will come back the result which is url short 
+   view in alink you can press in this link to go to your long uRL  */?>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title></title>
 	<meta name="description" content="">

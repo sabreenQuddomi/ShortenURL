@@ -1,4 +1,10 @@
 <?php
+    /*
+    the model do by two fun .:1.validates the input from the user, inserts the long URL into the database,
+     masks the ID of the record and returns it to the controller by store_long_url func.
+//////////////////////////////2.decodes the ID and searches the database for the ID and
+ if it cannot be found return the 404 link by Retrive the long URL
+    */
 
 class Short_url_model extends CI_Model {
 
